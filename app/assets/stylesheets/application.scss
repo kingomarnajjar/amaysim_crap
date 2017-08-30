@@ -1,0 +1,56 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+@import "bootstrap";
+.login{
+  margin-right: 10px;
+}
+.activate_sim{
+  margin-right: 10px;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar{
+  background-color: #FF5500;
+
+}
+
+.nav-item{
+  font-family: sans-serif;
+  font-size: 65;
+}
+
+.jumbotron{
+  margin-right: 150px;
+  margin: auto;
+  background-color: #510063;
+  color: white;
+}
+
+.terms_condtions_apply{
+  color: orange;
+}
+.dropdown{
+  color: #510063;
+}
+.btn{
+  background-color: #FF5500;
+
+}
